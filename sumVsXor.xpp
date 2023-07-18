@@ -1,0 +1,13 @@
+long sumXor(long n) {
+    
+    int counter = 0;
+
+    while (n > 0) {
+        if (n % 2 == 0) {
+        counter++;
+    }
+    n = floor(n / 2);
+}
+
+    return pow(2, counter);
+}
